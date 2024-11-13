@@ -179,14 +179,14 @@ Basta copiar este caminho e colocar como variável do ambiente.
 
 <div align='center'>
   <img src='https://github.com/user-attachments/assets/500f30d9-7908-4dc1-93c3-d1b1ba6443c7' alt='Adicionando caminho comovariável de ambiente. Lembre que esse caminho deve ser adicionado em "Path" e em "Variáveis do Sistema".' >
-  <p align='center'>Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.</p>
+  <p align='center'>Adicionando caminho comovariável de ambiente. Lembre que esse caminho deve ser adicionado em "Path" e em "Variáveis do Sistema".</p>
 </div>
 
 Partindo para o VSCode, em extensões podemos instalar algumas que te auxiliarão enquanto programa em C/C++.  
 1. C/C++:
 <div align='center'>
   <img src='https://github.com/user-attachments/assets/e4088bc7-180b-4a14-9679-1b30f9e3cec4' alt='Primeira extensão do VSCode. Ela te auxiliará com o intelliSense, sugerindo estruturas e preenchendo automaticamente seu código à medida que você digita.' >
-  <p align='center'>Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.</p>
+  <p align='center'>Primeira extensão do VSCode. Ela te auxiliará com o intelliSense, sugerindo estruturas e preenchendo automaticamente seu código à medida que você digita.</p>
 </div>
 
 2. C/C++ Compile Run
@@ -195,10 +195,10 @@ Partindo para o VSCode, em extensões podemos instalar algumas que te auxiliarã
   <p align='center'>Segunda extensão do VSCode. Ela te permite executar seu código C/C++ com a tecla [F6] ou apertando o botão <img src='https://github.com/user-attachments/assets/ca5bfce4-00f8-42c5-b0e9-e56042709dc3'> </p>
 </div>
 
-Executando o famoso "Hello World!", temos o resultado corretamente printado no terminal.
+Não se esqueça de seguir a tradição de todo programador e executar o famoso "Hello World!". Se você conseguiu seguir os passos até aqui, terá o resultado corretamente printado no terminal.
 <div align='center'>
   <img src='https://github.com/user-attachments/assets/057152ad-1f60-40a1-859d-88c098426be2' alt='Hello World em C++' width='' height=''> >
-  <p align='center'>Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.</p>
+  <p align='center'>Hello World em C++</p>
 </div>
 
 Dica: Para outras linguagens, é basicamente o mesmo procedimento, apenas voltado para outra linguagem, seja ela C#, Rust, Java etc.
