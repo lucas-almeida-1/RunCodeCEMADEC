@@ -192,7 +192,7 @@ Partindo para o VSCode, em extensões podemos instalar algumas que te auxiliarã
 2. C/C++ Compile Run
 <div align='center'>
   <img src='https://github.com/user-attachments/assets/de13762a-aaf1-4a8c-8fed-414af154640d' alt='Segunda extensão do VSCode. Ela te permite executar seu código C/C++ com a tecla [F6] ou apertando o botão '<img src='https://github.com/user-attachments/assets/ca5bfce4-00f8-42c5-b0e9-e56042709dc3' width='' height=''> >
-  <p align='center'>Segunda extensão do VSCode. Ela te permite executar seu código C/C++ com a tecla [F6] ou apertando o botão '<img src='https://github.com/user-attachments/assets/ca5bfce4-00f8-42c5-b0e9-e56042709dc3</p>
+  <p align='center'>Segunda extensão do VSCode. Ela te permite executar seu código C/C++ com a tecla [F6] ou apertando o botão <img src='https://github.com/user-attachments/assets/ca5bfce4-00f8-42c5-b0e9-e56042709dc3'> </p>
 </div>
 
 Executando o famoso "Hello World!", temos o resultado corretamente printado no terminal.
