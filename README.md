@@ -1,14 +1,26 @@
 # RunCodeDC
 
 # Preparação inicial para escrever códigos em qualquer linguagem no VSCode.
+
+Antes de você escolher programar, seja em Python, C/C++ ou outra linguagem, você precisa saber a diferença entre interpretador e compilador.  
+## Interpretador x Compilador
+Um computador só entende sinais "0" ou "1". Logo, quando escrevemos nossos códigos em uma linguagem, precisamos de algo que faça essa conversão do código em alto nível, que é facilmente entendido por nós, para uma linguagem de baixo nível, que é facilmente entendido pela máquina. Este é o papel do interpretador e compilador.  
+<br>
+Considere os dois conversores como um tradutor. O interpretador é um tradutor pessoal que estaria do seu lado te dando dicas para aprender uma nova linguagem e o compilador seria um tradutor online que te dá a tradução pronta para usar.  
+Para o interpretador, temos um conversor mais lento, que lê linha por linha e executa no computador. Um exemplo de linguagem interpretada é o Python.  
+Já o compilador é um conversor muito mais veloz, lendo todas as linhas de uma vez. Um exemplo de linguagem compilada é o C/C++.  
+Para aplicações muito grandes, o ideal é que você use uma linguagem compilada ao invés de uma linguagem interpretada.  
+
 ## Python
 Vamos supor que você queira fazer um projeto em Python na sua máquina.
 Se você teve algum problema com códigos em Python, você precisa instalar o Python e adicionar a variável do sistema em PATH.
+Python é uma linguagem interpretada.
 
 ## Instalação do Python
-Já considerando que você tenha alguma IDE, como o PyCharm ou o Visual Studio Code. Precisamos instalar a extensão Python na sua IDE:
+Já considerando que você tenha alguma IDE, como o PyCharm ou o Visual Studio Code, você irá precisar instalar a extensão Python na sua IDE.
+OBS.: Caso não tenha instalado nenhuma IDE, aconselho usar o VSCode, por ser mais versátil e amplamente utilizado. [Instale clicando aqui](https://code.visualstudio.com/download).  
 
-Como o VSCode é mais usado, basta seguir as seguintes instruções:
+Com o VSCode instalado, basta seguir as seguintes instruções:
 <div align='center'>
   <img src='https://github.com/user-attachments/assets/703de849-2a29-42e4-9a73-12f18d4e88e3' alt='Interface do VSCode' >
   <p align='center'>Interface do VSCode</p>
@@ -25,7 +37,7 @@ Perceba que ao clicar no botão, temos uma nova aba listando algumas extensões.
 
 <div align='center'>
   <img src='https://github.com/user-attachments/assets/3e85e653-2f92-4280-89e7-04cc61825b56' alt='Detalhes da extensão Python' >
-  <p align='center'>Detalhes da extensão Python.</p>
+  <p align='center'>Detalhes da extensão Python</p>
 </div>
 
 Uma janela maior se abre detalhando o que a extensão pode fazer. Como queremos escrever códigos em Python, ela se faz necessária. Para isso, basta apertar no botão Install.  
@@ -117,8 +129,8 @@ Digite "var" no menu iniciar e abra a opção de editar variáveis de ambiente d
 Neste momento, você precisa de permissão de administrador. Chame qualquer pessoa do NTI que terá esse acesso.  
 Após isso, clique no botão inferior direito "Variáveis do Ambiente..."
 <div align='center'>
-  <img src='https://github.com/user-attachments/assets/71d65cb7-0a79-42cd-be9d-92c38c40b28c' alt='Ao clicar em Variáveis do Ambiente, temos essas duas janelas.' >
-  <p align='center'>Ao clicar em Variáveis do Ambiente, temos essas duas janelas.</p>
+  <img src='https://github.com/user-attachments/assets/71d65cb7-0a79-42cd-be9d-92c38c40b28c' alt='Ao clicar em Variáveis do Ambiente, temos essas duas janelas' >
+  <p align='center'>Ao clicar em Variáveis do Ambiente, temos essas duas janelas</p>
 </div>
 
 Você tem variáveis de usuário e as variáveis do sistema. No caso, procure por Path em Variáveis do sistema e clique duas vezes nele.  
@@ -131,20 +143,21 @@ python -V
 ```
 Agora, você deve estar vendo a versão do python sendo exibida pelo prompt de comando.
 <div align='center'>
-  <img src='https://github.com/user-attachments/assets/7e04c68a-6af5-4eac-98c7-09d7d49ef7fb' alt='Prompt de comando exibindo a versão do Python corretamente.' >
-  <p align='center'>Prompt de comando exibindo a versão do Python corretamente.</p>
+  <img src='https://github.com/user-attachments/assets/7e04c68a-6af5-4eac-98c7-09d7d49ef7fb' alt='Prompt de comando exibindo a versão do Python corretamente' >
+  <p align='center'>Prompt de comando exibindo a versão do Python corretamente</p>
 </div>
 
 Recomendo que feche o VSCode e abra novamente.
 
-Agora, o Python está funcionando corretamente! Bons estudos!  
+Uma tradição dos programadores é começar escrevendo o primeiro código que imprima "Hello World!" ou "Olá, mundo!" para dar sorte no aprendizado. Siga a tradição para ser um mestre em Python.
 
 <div align='center'>
-  <img src='https://github.com/user-attachments/assets/9f6e9d01-f61c-4326-9002-b21025132c84' alt='Famoso Hello World! (Olá, mundo!) printado no console do VSCode.' >
-  <p align='center'>Famoso Hello World! (Olá, mundo!) printado no console do VSCode.</p>
+  <img src='https://github.com/user-attachments/assets/9f6e9d01-f61c-4326-9002-b21025132c84' alt='Famoso Hello World! (Olá, mundo!) printado no console do VSCode' >
+  <p align='center'>Famoso Hello World! (Olá, mundo!) printado no console do VSCode</p>
 </div>
 
 # C ou C++
+C/C++ é uma linguagem compilada.
 Para C ou C++, ao invés de instalar o Python, você vai procurar por
 ```
 mingw download
@@ -153,20 +166,20 @@ Ou simplesmente, abra [esse site](https://sourceforge.net/projects/mingw/)
 
 <div align='center'>
   <img src='https://github.com/user-attachments/assets/60fa2f48-062c-4b78-8eaa-79266fbe0db5' alt='Página de instalação do MinGW' >
-  <p align='center'>Página de instalação do MinGW.</p>
+  <p align='center'>Página de instalação do MinGW</p>
 </div>
 
 Aperte download e instale o software no "Padrão Windows": Next, Next, Next, Install.
 
 <div align='center'>
-  <img src='https://github.com/user-attachments/assets/41080d75-68f2-48a1-824e-a7da3e418dfc' alt='Para usar C/C++, selecione as opções mingw32-base junto com mingw32-gcc-g++. Caso queira programar em fortran, ada ou quiser uma instalação completa, marque as outras opções que desejar.' >
-  <p align='center'>Para usar C/C++, selecione as opções mingw32-base junto com mingw32-gcc-g++. Caso queira programar em fortran, ada ou quiser uma instalação completa, marque as outras opções que desejar.</p>
+  <img src='https://github.com/user-attachments/assets/41080d75-68f2-48a1-824e-a7da3e418dfc' alt='Para usar C/C++, selecione as opções mingw32-base junto com mingw32-gcc-g++. Caso queira programar em fortran, ada ou quiser uma instalação completa, marque as outras opções que desejar' >
+  <p align='center'>Para usar C/C++, selecione as opções mingw32-base junto com mingw32-gcc-g++. Caso queira programar em Fortran, Ada ou quiser uma instalação completa, marque as outras opções que desejar</p>
 </div>
 
 Após isso, vá em Installation e aperte na opção "Apply Changes", seguido de um "Apply" na nova janela.
 
 <div align='center'>
-  <img src='https://github.com/user-attachments/assets/f99eb902-733c-4dc4-979f-7f3dd1876683' alt='Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.' >
+  <img src='https://github.com/user-attachments/assets/f99eb902-733c-4dc4-979f-7f3dd1876683' alt='Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW' >
   <p align='center'>Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.</p>
 </div>
 
@@ -178,27 +191,38 @@ C:\MinGW\bin
 Basta copiar este caminho e colocar como variável do ambiente.
 
 <div align='center'>
-  <img src='https://github.com/user-attachments/assets/500f30d9-7908-4dc1-93c3-d1b1ba6443c7' alt='Adicionando caminho comovariável de ambiente. Lembre que esse caminho deve ser adicionado em "Path" e em "Variáveis do Sistema".' >
-  <p align='center'>Adicionando caminho comovariável de ambiente. Lembre que esse caminho deve ser adicionado em "Path" e em "Variáveis do Sistema".</p>
+  <img src='https://github.com/user-attachments/assets/500f30d9-7908-4dc1-93c3-d1b1ba6443c7' alt='Adicionando caminho comovariável de ambiente. Lembre que esse caminho deve ser adicionado em "Path" e em "Variáveis do Sistema"' >
+  <p align='center'>Adicionando caminho comovariável de ambiente. Lembre que esse caminho deve ser adicionado em "Path" e em "Variáveis do Sistema"</p>
 </div>
 
 Partindo para o VSCode, em extensões podemos instalar algumas que te auxiliarão enquanto programa em C/C++.  
 1. C/C++:
 <div align='center'>
-  <img src='https://github.com/user-attachments/assets/e4088bc7-180b-4a14-9679-1b30f9e3cec4' alt='Primeira extensão do VSCode. Ela te auxiliará com o intelliSense, sugerindo estruturas e preenchendo automaticamente seu código à medida que você digita.' >
-  <p align='center'>Primeira extensão do VSCode. Ela te auxiliará com o intelliSense, sugerindo estruturas e preenchendo automaticamente seu código à medida que você digita.</p>
+  <img src='https://github.com/user-attachments/assets/e4088bc7-180b-4a14-9679-1b30f9e3cec4' alt='Primeira extensão do VSCode. Ela te auxiliará com o intelliSense, sugerindo estruturas e preenchendo automaticamente seu código à medida que você digita' >
+  <p align='center'>Primeira extensão do VSCode. Ela te auxiliará com o intelliSense, sugerindo estruturas e preenchendo automaticamente seu código à medida que você digita</p>
 </div>
 
 2. C/C++ Compile Run
 <div align='center'>
-  <img src='https://github.com/user-attachments/assets/de13762a-aaf1-4a8c-8fed-414af154640d' alt='Segunda extensão do VSCode. Ela te permite executar seu código C/C++ com a tecla [F6] ou apertando o botão '<img src='https://github.com/user-attachments/assets/ca5bfce4-00f8-42c5-b0e9-e56042709dc3' width='' height=''> >
+  <img src='https://github.com/user-attachments/assets/de13762a-aaf1-4a8c-8fed-414af154640d' alt='Segunda extensão do VSCode. Ela te permite executar seu código C/C++ com a tecla [F6] ou apertando o botão '<img src='https://github.com/user-attachments/assets/ca5bfce4-00f8-42c5-b0e9-e56042709dc3' width='' height=''>
   <p align='center'>Segunda extensão do VSCode. Ela te permite executar seu código C/C++ com a tecla [F6] ou apertando o botão <img src='https://github.com/user-attachments/assets/ca5bfce4-00f8-42c5-b0e9-e56042709dc3'> </p>
 </div>
 
+Para verificar se o compilador do C/C++ está funcionando corretamente, podemos dentro do prompt de comando escrever o seguinte comando:
+```
+gcc --version
+```
+Se o comando exibir alguma versão, o compilador C está funcionando corretamente.  
+Além disso, escreva no prompt de comando:
+```
+g++ --version
+```
+Assim como o comando anterior, se exibiu alguma versão significa que o compilador C++ está funcionando corretamente.  
+
 Não se esqueça de seguir a tradição de todo programador e executar o famoso "Hello World!". Se você conseguiu seguir os passos até aqui, terá o resultado corretamente printado no terminal.
 <div align='center'>
-  <img src='https://github.com/user-attachments/assets/057152ad-1f60-40a1-859d-88c098426be2' alt='Hello World em C++' width='' height=''> >
+  <img src='https://github.com/user-attachments/assets/057152ad-1f60-40a1-859d-88c098426be2' alt='Hello World em C++' width='' height=''>
   <p align='center'>Hello World em C++</p>
 </div>
 
-Dica: Para outras linguagens, é basicamente o mesmo procedimento, apenas voltado para outra linguagem, seja ela C#, Rust, Java etc.
+Dica: Para outras linguagens, é basicamente o mesmo procedimento, basta apenas buscar o instalador necessário para a linguagem e extensões para adicionar na IDE que podem te auxiliar a programar em C#, Rust, Java etc.
