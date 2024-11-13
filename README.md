@@ -1,4 +1,4 @@
-# RunCodeCEMADEC
+# RunCodeDC
 
 ## Preparação inicial para escrever códigos em qualquer linguagem no VSCode.
 Vamos supor que você queira fazer um projeto em Python na sua máquina.
