@@ -4,7 +4,7 @@ Olá, pessoal! Se você está no GitHub, deve ter interesse em programar em algu
 	<img src="https://media.giphy.com/media/Oj25fisQ3zhukVWY96/giphy.gif" alt="Gif de um pato amarelo com um óculos preto trabalhando num notebook" width=45 height=45>
 </div>
 
-## Preparação inicial para escrever códigos em qualquer linguagem no VSCode.  
+## Preparação inicial para escrever códigos de qualquer linguagem.  
 
 Antes de você escolher programar, seja em Python, C/C++ ou outra linguagem, você precisa saber a diferença entre interpretador e compilador.  
 ## Interpretador x Compilador
