@@ -1,4 +1,4 @@
-# RunCodeDC
+# TourProgramacao
 Olá, pessoal! Se você está no GitHub, deve ter interesse em programar em alguma linguagem, certo? Aqui estarei ensinando os primeiros passos para programar em Python ou C/C++. Vamos aprender?
 <div>
 	<img src="https://media.giphy.com/media/Oj25fisQ3zhukVWY96/giphy.gif" alt="Gif de um pato amarelo com um óculos preto trabalhando num notebook" width=45 height=45>
