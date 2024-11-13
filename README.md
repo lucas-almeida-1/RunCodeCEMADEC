@@ -17,9 +17,9 @@ Para aplicações muito grandes, o ideal é que você use uma linguagem compilad
 
 ## Como programar em alguma linguagem?
 ## <img src='https://github.com/user-attachments/assets/634457d1-c3e6-4fac-996c-35f2a7b491cc' width='25' height='25'>Python
-Vamos supor que você queira fazer um projeto em Python na sua máquina.
-Se você teve algum problema com códigos em Python, você precisa instalar o Python e adicionar a variável do sistema em PATH.
-Python é uma linguagem interpretada.
+Python é uma linguagem interpretada.  
+Vamos supor que você queira fazer um projeto em Python na sua máquina.  
+Se você teve algum problema com códigos em Python, você precisa instalar o Python e adicionar a variável do sistema em PATH.  
 
 ## Instalação do Python
 Já considerando que você tenha alguma IDE, como o PyCharm ou o Visual Studio Code, você irá precisar instalar a extensão Python na sua IDE.
