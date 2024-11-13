@@ -1,6 +1,6 @@
 # RunCodeDC
 
-# Preparação inicial para escrever códigos em qualquer linguagem no VSCode.
+## Preparação inicial para escrever códigos em qualquer linguagem no VSCode.  
 
 Antes de você escolher programar, seja em Python, C/C++ ou outra linguagem, você precisa saber a diferença entre interpretador e compilador.  
 ## Interpretador x Compilador
@@ -11,6 +11,7 @@ Para o interpretador, temos um conversor mais lento, que lê linha por linha e e
 Já o compilador é um conversor muito mais veloz, lendo todas as linhas de uma vez. Um exemplo de linguagem compilada é o C/C++.  
 Para aplicações muito grandes, o ideal é que você use uma linguagem compilada ao invés de uma linguagem interpretada.  
 
+## Como programar em alguma linguagem?
 ## Python
 Vamos supor que você queira fazer um projeto em Python na sua máquina.
 Se você teve algum problema com códigos em Python, você precisa instalar o Python e adicionar a variável do sistema em PATH.
@@ -137,6 +138,7 @@ Você tem variáveis de usuário e as variáveis do sistema. No caso, procure po
 Clique em uma linha em branco e cole aquele caminho que leva até o Python que você copiou anteriormente.
 Aperte OK em todas as janelas.
 
+## Verificando se a instalação foi feita com sucesso
 Agora você pode abrir o cmd e digitar ou copiar o seguinte código:  
 ```
 python -V
@@ -156,7 +158,9 @@ Uma tradição dos programadores é começar escrevendo o primeiro código que i
   <p align='center'>Famoso Hello World! (Olá, mundo!) printado no console do VSCode</p>
 </div>
 
-# C ou C++
+<br>
+
+## C ou C++
 C/C++ é uma linguagem compilada.
 Para C ou C++, ao invés de instalar o Python, você vai procurar por
 ```
@@ -195,6 +199,7 @@ Basta copiar este caminho e colocar como variável do ambiente.
   <p align='center'>Adicionando caminho comovariável de ambiente. Lembre que esse caminho deve ser adicionado em "Path" e em "Variáveis do Sistema"</p>
 </div>
 
+## Extensões essenciais C/C++
 Partindo para o VSCode, em extensões podemos instalar algumas que te auxiliarão enquanto programa em C/C++.  
 1. C/C++:
 <div align='center'>
@@ -208,6 +213,7 @@ Partindo para o VSCode, em extensões podemos instalar algumas que te auxiliarã
   <p align='center'>Segunda extensão do VSCode. Ela te permite executar seu código C/C++ com a tecla [F6] ou apertando o botão <img src='https://github.com/user-attachments/assets/ca5bfce4-00f8-42c5-b0e9-e56042709dc3'> </p>
 </div>
 
+## Verificando instalação C/C++
 Para verificar se o compilador do C/C++ está funcionando corretamente, podemos dentro do prompt de comando escrever o seguinte comando:
 ```
 gcc --version
@@ -219,6 +225,7 @@ g++ --version
 ```
 Assim como o comando anterior, se exibiu alguma versão significa que o compilador C++ está funcionando corretamente.  
 
+## Hello World C/C++
 Não se esqueça de seguir a tradição de todo programador e executar o famoso "Hello World!". Se você conseguiu seguir os passos até aqui, terá o resultado corretamente printado no terminal.
 <div align='center'>
   <img src='https://github.com/user-attachments/assets/057152ad-1f60-40a1-859d-88c098426be2' alt='Hello World em C++' width='' height=''>
