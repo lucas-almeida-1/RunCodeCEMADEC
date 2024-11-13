@@ -1,4 +1,8 @@
 # RunCodeDC
+Olá, pessoal! Se você está no GitHub, deve ter interesse em programar em alguma linguagem, certo? Aqui estarei ensinando os primeiros passos para programar em Python ou C/C++. Vamos aprender?
+<div>
+	<img src="https://media.giphy.com/media/Oj25fisQ3zhukVWY96/giphy.gif" alt="Gif de um pato amarelo com um óculos preto trabalhando num notebook" width=45 height=45>
+</div>
 
 ## Preparação inicial para escrever códigos em qualquer linguagem no VSCode.  
 
@@ -12,7 +16,7 @@ Já o compilador é um conversor muito mais veloz, lendo todas as linhas de uma 
 Para aplicações muito grandes, o ideal é que você use uma linguagem compilada ao invés de uma linguagem interpretada.  
 
 ## Como programar em alguma linguagem?
-## Python
+## <img src='https://github.com/user-attachments/assets/634457d1-c3e6-4fac-996c-35f2a7b491cc' width='25' height='25'>Python
 Vamos supor que você queira fazer um projeto em Python na sua máquina.
 Se você teve algum problema com códigos em Python, você precisa instalar o Python e adicionar a variável do sistema em PATH.
 Python é uma linguagem interpretada.
@@ -160,7 +164,7 @@ Uma tradição dos programadores é começar escrevendo o primeiro código que i
 
 <br>
 
-## C ou C++
+## <img src='https://github.com/user-attachments/assets/fb0aeab7-b215-417f-aee5-6f752d878803' width='25' height='25'>C e C++<img src='https://github.com/user-attachments/assets/56593c09-b1b2-4877-8f01-d1a44050ca4f' width='25' height='25'>
 C/C++ é uma linguagem compilada.
 Para C ou C++, ao invés de instalar o Python, você vai procurar por
 ```
