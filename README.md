@@ -67,8 +67,8 @@ Se gerar um erro, você não tem o Python na sua máquina.
 
 ## Contornando o problema da Microsoft Store
 Você provavelmente já tentou instalar algo na Microsoft Store e deu algum erro, seja ao abrir a loja ou instalando algum aplicativo, certo?  
-Infelizmente, a única forma de contornar este problema é tentando baixar seus aplicativos pelo próprio navegador.  
-OBS.: A Microsoft Store Web também não é possível instalar nada, visto que redireciona o download para a Store instalada na máquina.  
+Infelizmente (ou felizmente), uma forma de contornar este problema é tentando baixar seus aplicativos pelo próprio navegador.  
+OBS.: A Microsoft Store Web também não funcionaria se você estiver com este problema, visto que a instalação sempre redireciona o download para a Store instalada na máquina.  
 
 Portanto, vá ao navegador e busque por uma versão do Python. A versão mais comum é a 3.11, que será instalada.
 Cole o seguinte texto na barra de pesquisa:
@@ -236,4 +236,7 @@ Não se esqueça de seguir a tradição de todo programador e executar o famoso 
   <p align='center'>Hello World em C++</p>
 </div>
 
-Dica: Para outras linguagens, é basicamente o mesmo procedimento, basta apenas buscar o instalador necessário para a linguagem e extensões para adicionar na IDE que podem te auxiliar a programar em C#, Rust, Java etc.
+Dica: Para outras linguagens, é basicamente o mesmo procedimento, basta apenas buscar o instalador necessário para a linguagem e extensões para adicionar na IDE que podem te auxiliar a programar em C#, Rust, Java etc.  
+<br>
+<img src="https://github.com/user-attachments/assets/b4567a73-8d99-4be1-81bb-a3c826446a81" alt="computer-cat" width="60" height="35">
+Good Luck and Happy Coding!
