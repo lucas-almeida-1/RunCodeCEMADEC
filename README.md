@@ -1,6 +1,7 @@
 # RunCodeDC
 
-## Preparação inicial para escrever códigos em qualquer linguagem no VSCode.
+# Preparação inicial para escrever códigos em qualquer linguagem no VSCode.
+## Python
 Vamos supor que você queira fazer um projeto em Python na sua máquina.
 Se você teve algum problema com códigos em Python, você precisa instalar o Python e adicionar a variável do sistema em PATH.
 
@@ -143,4 +144,61 @@ Agora, o Python está funcionando corretamente! Bons estudos!
   <p align='center'>Famoso Hello World! (Olá, mundo!) printado no console do VSCode.</p>
 </div>
 
-Dica: Para outras linguagens, é basicamente o mesmo procedimento, apenas voltado para outra linguagem, seja ela C, Java, C# etc.
+# C ou C++
+Para C ou C++, ao invés de instalar o Python, você vai procurar por
+```
+mingw download
+```
+Ou simplesmente, abra [esse site](https://sourceforge.net/projects/mingw/)
+
+<div align='center'>
+  <img src='https://github.com/user-attachments/assets/60fa2f48-062c-4b78-8eaa-79266fbe0db5' alt='Página de instalação do MinGW' >
+  <p align='center'>Página de instalação do MinGW.</p>
+</div>
+
+Aperte download e instale o software no "Padrão Windows": Next, Next, Next, Install.
+
+<div align='center'>
+  <img src='https://github.com/user-attachments/assets/41080d75-68f2-48a1-824e-a7da3e418dfc' alt='Para usar C/C++, selecione as opções mingw32-base junto com mingw32-gcc-g++. Caso queira programar em fortran, ada ou quiser uma instalação completa, marque as outras opções que desejar.' >
+  <p align='center'>Para usar C/C++, selecione as opções mingw32-base junto com mingw32-gcc-g++. Caso queira programar em fortran, ada ou quiser uma instalação completa, marque as outras opções que desejar.</p>
+</div>
+
+Após isso, vá em Installation e aperte na opção "Apply Changes", seguido de um "Apply" na nova janela.
+
+<div align='center'>
+  <img src='https://github.com/user-attachments/assets/f99eb902-733c-4dc4-979f-7f3dd1876683' alt='Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.' >
+  <p align='center'>Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.</p>
+</div>
+
+Após isso, basta adicionar o caminho da instalação como variável de ambiente.  
+Para esta instalação, o caminho que o MinGW é instalado, caso não tenha sido alterado durante a instalação é o:
+```
+C:\MinGW\bin
+```
+Basta copiar este caminho e colocar como variável do ambiente.
+
+<div align='center'>
+  <img src='https://github.com/user-attachments/assets/500f30d9-7908-4dc1-93c3-d1b1ba6443c7' alt='Adicionando caminho comovariável de ambiente. Lembre que esse caminho deve ser adicionado em "Path" e em "Variáveis do Sistema".' >
+  <p align='center'>Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.</p>
+</div>
+
+Partindo para o VSCode, em extensões podemos instalar algumas que te auxiliarão enquanto programa em C/C++.  
+1. C/C++:
+<div align='center'>
+  <img src='https://github.com/user-attachments/assets/e4088bc7-180b-4a14-9679-1b30f9e3cec4' alt='Primeira extensão do VSCode. Ela te auxiliará com o intelliSense, sugerindo estruturas e preenchendo automaticamente seu código à medida que você digita.' >
+  <p align='center'>Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.</p>
+</div>
+
+2. C/C++ Compile Run
+<div align='center'>
+  <img src='https://github.com/user-attachments/assets/de13762a-aaf1-4a8c-8fed-414af154640d' alt='Segunda extensão do VSCode. Ela te permite executar seu código C/C++ com a tecla [F6] ou apertando o botão '<img src='https://github.com/user-attachments/assets/ca5bfce4-00f8-42c5-b0e9-e56042709dc3' width='' height=''> >
+  <p align='center'>Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.</p>
+</div>
+
+Executando o famoso "Hello World!", temos o resultado corretamente printado no terminal.
+<div align='center'>
+  <img src='https://github.com/user-attachments/assets/057152ad-1f60-40a1-859d-88c098426be2' alt='Hello World em C++' width='' height=''> >
+  <p align='center'>Aqui sua instalação foi finalizada, basta apertar "Close" para fechar o instalador. Pode fechar também a janela do MinGW.</p>
+</div>
+
+Dica: Para outras linguagens, é basicamente o mesmo procedimento, apenas voltado para outra linguagem, seja ela C#, Rust, Java etc.
